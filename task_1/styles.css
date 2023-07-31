@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    padding: 10% 12%;
+}
+.heading{
+    position: relative;
+}
+.heading-circle{
+    height: 102px;
+    width: 102px;
+    background-color: #E14B32;
+    border-radius: 100%;
+}
+h1{
+   position: absolute;
+   font-weight: 900;
+   top: 10px;
+   left: 60px;
+}
+h2{
+    font-weight: 700;
+}
+p{
+    font-weight: 600;
+}
+.section{
+    position: relative;
+    display: flex;
+    margin-top: 5%;
+}
+.blue-circle{
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background-color: #3787C8;
+    border-radius: 100%;
+}
+.orange-circle{
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background-color: #FAAF41;
+    border-radius: 100%;
+}
+.orangered-circle{
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background-color: #E14B32;
+    border-radius: 100%;
+}
+.card{
+    width: 20%;
+    border-right: 1px solid;
+    margin-left: 5%;
+}
+img{
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+}
+.linkdin{
+    font-weight: 400;
+    margin-top: 40px;
+}
+.line1{
+    position: absolute;
+    width: 50px;
+    border: 1px solid #E14B32;
+    bottom: 23px;
+    left: 100px;
+}
+.line2{
+    position: absolute;
+    width: 50px;
+    border: 1px solid #E14B32;
+    bottom: 23px;
+    left: 33%;
+}
+.line3{
+    position: absolute;
+    width: 50px;
+    border: 1px solid #E14B32;
+    bottom: 23px;
+    left: 58%;
+}
+.line4{
+    position: absolute;
+    width: 50px;
+    border: 1px solid #E14B32;
+    bottom: 23px;
+    right: 13%;
+}
