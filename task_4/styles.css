@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #232526;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    padding: 10% 5% 10% 20%;
+}
+
+.heading{
+    position: relative;
+    color: #fff;
+}
+
+.circle{
+    height: 103px;
+    width: 103px;
+    background-color: #E14832;
+    border-radius: 100%;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 0.2px;
+}
+
+.heading p {
+    font-weight: 600;
+}
+
+.title{
+    position: absolute;
+    top: 5px;
+    left: 35px;
+}
+
+.section{
+    margin: 1.5rem 3rem;
+}
+
+input{
+    background: transparent;
+    border: 1px solid #555F64;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 3rem;
+    width: 95%;
+    font-size: 20px;
+    color: #fff;
+}
+
+.form-input input{
+    width: 26%;
+    margin-right: 20px;
+}
+
+select{
+    padding: 20px;
+    width: 6%;
+    font-size: 20px;
+    background: transparent;
+    border: 1px solid #555F64;
+    border-radius: 5px;
+    margin-right: -1px;
+    appearance: none;
+}
+
+.upload{
+    position: relative;
+}
+
+.upload input{
+    margin-top: 3rem;
+    padding: 40px;
+    width: 92%;
+    border-style: dashed;
+}
+
+.upload span{
+    color: #555f64;
+    position: absolute;
+    top: 90px;
+    right: 50px;
+    font-size: 15px;
+}
+
+button{
+    margin-top: 3rem;
+    float: right;
+    padding: 12px 30px;
+    margin-right: 1.5rem;
+    background: transparent;
+    border: 1px solid #555F64;
+    color: #fff;
+    font-size: 20px;
+}
