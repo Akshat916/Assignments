@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #555F64;
+}
+
+.container{
+    padding: 8% 10%;
+}
+
+.heading{
+    position: relative;
+}
+
+.circle{
+    width: 103px;
+    height: 103px;
+    background-color: #E14832;
+    border-radius: 100%;
+}
+
+h1{
+    position: absolute;
+    width: 250px;
+    top: -10px;
+    left: 40px;
+    color: #fff;
+    font-size: 3rem;
+}
+
+h1 span{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+}
+
+.section{
+    margin: 5rem 3rem;
+    display: flex;
+}
+
+.img{
+    position: relative;
+}
+
+.main-img{
+    width: 600px;
+    height: 350px;
+}
+
+.logo{
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+}
+
+.content{
+    margin: 0 10rem;
+    color: #fff;
+}
+
+.message{
+    font-size: 28px;
+    font-style: italic;
+}
+
+.from{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.numbers{
+    position: relative;
+    margin-top: 7rem;
+    letter-spacing: 10px;
+    color: #ffffff80;
+    font-size: 20px;
+}
+
+.numbers p span{
+    color: #fff;
+}
+
+.numbers hr{
+    position: relative;
+    width: 100%;
+    bottom: 33px;
+    left: 220px;
+    border: 1px solid #E14832;
+}
