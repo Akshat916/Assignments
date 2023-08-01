@@ -57,6 +57,7 @@ p{
     width: 20%;
     border-right: 1px solid;
     margin-left: 5%;
+    position: relative;
 }
 img{
     width: 224px;
@@ -67,31 +68,10 @@ img{
     font-weight: 400;
     margin-top: 40px;
 }
-.line1{
+.line{
     position: absolute;
     width: 50px;
     border: 1px solid #E14B32;
     bottom: 23px;
     left: 100px;
-}
-.line2{
-    position: absolute;
-    width: 50px;
-    border: 1px solid #E14B32;
-    bottom: 23px;
-    left: 33%;
-}
-.line3{
-    position: absolute;
-    width: 50px;
-    border: 1px solid #E14B32;
-    bottom: 23px;
-    left: 58%;
-}
-.line4{
-    position: absolute;
-    width: 50px;
-    border: 1px solid #E14B32;
-    bottom: 23px;
-    right: 13%;
 }
