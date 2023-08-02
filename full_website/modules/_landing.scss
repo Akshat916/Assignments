@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$white: #FFFFFF;
+$orangered: #E14B32;
+
+header{
+    background-color: #1D1B1C;
+    color: $white;
+    padding-bottom: 10%;
+    .container{
+        position: relative;
+        padding: 0 12%;  
+        &__navbar{
+        display: flex;
+        height: 2.57rem;
+        &__logo{
+            width: 6rem;
+            img{
+                width: 100%;
+                transform: rotate(-20deg);
+            }
+        }
+        &__nav_links{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            margin-left: 10rem;
+            li{
+                padding: 2.8rem;
+            }
+            .orangered{
+                color: $orangered;
+                margin-left: 6rem;
+            }
+            .orangered::before{
+                content: '';
+                display: block;
+                position: absolute;
+                width: 4rem;
+                top: 3.3rem;
+                right: 38rem;
+                border: 1px solid $orangered;
+            }
+        }
+        }
+        .yellow-triangle{
+            position: absolute;
+            top: 17rem;
+            right: 40rem;
+            border-bottom: 28.57px solid #FAAF40;
+            border-right: 28.57px solid transparent;
+        }
+        .box-with-line{
+            position: absolute;
+            width: 28px;
+            height: 28px;
+            background-color: #DF4E31;
+            bottom: -24px;
+            left: 30%;
+            z-index: 1;
+        }
+        .box-with-line::after{
+            position: absolute;
+            content: "";
+            height: 60%;
+            border-left: 2px solid $white;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(45deg);
+        }
+        &__banner{
+            position: relative;
+            padding: 6rem 0;
+            &_heading{
+                h1{
+                    font-family: Bebas Neue;
+                    font-size: 18rem;
+                    width: 39rem;
+                    white-space: nowrap;
+                    font-weight: 400;
+                }
+                p{
+                    font-size: 1.9rem;
+                    margin-top: -4rem;
+                    margin-left: 1rem;
+                }
+            }
+            &_side_heading{
+                position: relative;
+                .greadient_circle{
+                    position: absolute;
+                    width: 6.25rem;
+                    height: 6.25rem;
+                    right: 30rem;
+                    bottom: -3rem;
+                    border-radius: 50%;
+                    background: rgb(225,75,50);
+                    background: linear-gradient(280deg, rgba(225,75,50,1) 35%, rgba(55,135,200,1) 100%);
+                }
+                p{
+                    position: absolute;
+                    width: 20rem;
+                    text-align: left;
+                    font-size: 1.2rem;
+                    right: 13rem;
+                    bottom: -5rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    header{
+        padding-bottom: 3%;
+        .container{
+            padding: 0 5%;
+            &__navbar{
+                &__nav_links{
+                    display: block;
+                    margin-left: 9rem;
+                    margin-top: 2rem;
+                    line-height: 1.5;
+                    text-align: right;
+                    li{
+                        padding: 0;
+                    }
+                    .orangered{
+                        margin-left: 0;
+                    }
+                    .orangered::before{
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        top: 8.5rem;
+                        right: 7rem;
+                        font-size: 18px;
+                        width: 4rem;
+                        border: 1px solid $orangered;
+                    }
+                }
+            }
+            .yellow-triangle{
+                position: absolute;
+                top: 17rem;
+                right: 5rem;
+            }
+            .half-blue-circle{
+                position: absolute;
+                width: 23px;
+                height: 30px;
+                right: 0;
+                bottom: 23rem;
+                background-color: #3787C8;
+                border-radius: 50% 0 0 50%;
+            }
+            &__banner{
+                &_heading{
+                    h1{
+                        width: 100%;
+                        margin: 5rem 0;
+                        white-space: normal;
+                        line-height: .8;
+                        font-size: 13.75rem;
+                    }
+                    p{
+                        margin-top: -5rem;
+                        font-size: 18px;
+                    }
+                }
+                &_side_heading{
+                    margin-top: 4rem;
+                    .greadient_circle{
+                        visibility: hidden;
+                    }
+                    p{  
+
+                        position: static;
+                        text-align: left;
+                        margin: 0 1rem;
+                        font-size: 14px;
+                        line-height: 2;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+        }
+    }
+}
